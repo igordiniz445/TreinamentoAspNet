@@ -10,30 +10,50 @@
     </h2>
     <br/>
     <br/>
-    <div>
+    <div style="float:left; width: 450px">
         <div>
             <asp:Label ID="lblSelecao" runat="server" Text="Selecione o carro desejado"></asp:Label>
         </div>
         <br />
         <div style="width: 300px">
-            <asp:DropDownList ID="dwVeiculos" runat="server" Width="300px"></asp:DropDownList>
+            <asp:DropDownList ID="dwVeiculos" runat="server" Width="300px" 
+               AutoPostBack="True" ></asp:DropDownList>
+            
         </div>
         <br/>
         <div>
-            <asp:Label ID="lblTituloInfoCarro" runat="server" Text="Informações sobre veiculo: "></asp:Label>
-            <br />
-            <asp:Label ID="lblInfoGeralCarro" runat="server" Text="xxt"></asp:Label>
+            <asp:Label ID="lblTituloInfoCarro" runat="server" Width="300px" Text="Informações sobre veiculo: "></asp:Label>
+            <br /><br />
+            <asp:Label ID="lblInfoGeralCarro" Width="300px" Height="50px" runat="server" 
+                ViewStateMode="Enabled"></asp:Label>
             <br />
             <asp:Label ID="lblPreco" runat="server" Text="Preço: ">
-                <asp:Label ID="lblValorVeiculo" runat="server" Text="R$50000"></asp:Label>
+                <asp:Label ID="lblValorVeiculo" runat="server"></asp:Label>
             </asp:Label>
         </div>
         <br />
         <br />
+        
+    </div>
+    <div style="float:right; width:450px">
+        <asp:Label ID="Label2" runat="server" Text="Nome Completo"></asp:Label>
         <br />
-        <asp:Label ID="lblDebug" runat="server" Text="DEBUG"></asp:Label>
+        <asp:TextBox ID="txtNome" runat="server" Width="300px"></asp:TextBox>
+        <br />
+        <asp:Label ID="Label1" runat="server" Text="Digite seu CPF para confirmar compra:"></asp:Label> <br />
+        <asp:TextBox ID="txtCpf" runat="server" Width="300px"></asp:TextBox>
+        <br />
+        <asp:Label ID="Label3" runat="server" Text="Placa do novo veículo"></asp:Label>
+        <br />
+        <asp:TextBox ID="txtPlaca" runat="server"></asp:TextBox>
+        <br />
+        <br />
+        <asp:Button ID="btnComprar" runat="server" Text="Comprar" />
+
+        <br />
+        <br />
     </div>
     
 </div>
-
+    <asp:Label ID="lbldebug" runat="server" Text="Label"></asp:Label>
 </asp:Content>

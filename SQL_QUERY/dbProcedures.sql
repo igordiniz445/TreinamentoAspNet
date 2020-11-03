@@ -20,6 +20,9 @@ Create procedure buscarTodosOsVeiculos as
 Create procedure realizarCompra(@nome varchar(45) ,@cpf varchar(11) , @placa varchar(7), @idVeiculo as int) as 
 	INSERT into compra values (@idVeiculo, @cpf, @nome, getdate(),@placa)
 
+Create procedure buscarVeiculoPorId(@id integer) as
+	Select * from veiculos where id = @id
+
 exec buscarTodosOsVeiculos;
 exec buscarTodasAsCompras
 exec buscarCompraByCpf '10604622551'

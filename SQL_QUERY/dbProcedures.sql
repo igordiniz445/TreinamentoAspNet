@@ -5,14 +5,14 @@ Create procedure buscarTodasAsCompras as
 
 
 Create procedure buscarCompraByCpf(@cpf varchar(11))as
-	Select c.idCompra,c.nomeComprador, c.cpf, c.dataCompra, v.modelo, v.ano, c.placa, v.valor 
+	Select c.cpf,c.nomeComprador, c.dataCompra, v.modelo, v.ano, c.placa, v.valor 
 		from compra as c join veiculos as v on v.id = c.idVeiculo 
 		where c.cpf = @cpf;
 
 Create procedure buscarCompraByPlaca(@placa varchar(7))as
-	Select c.idCompra,c.nomeComprador, c.cpf, c.dataCompra, v.modelo, v.ano, c.placa, v.valor 
+	Select c.placa,c.nomeComprador, c.cpf, c.dataCompra, v.modelo, v.ano, v.valor 
 		from compra as c join veiculos as v on v.id = c.idVeiculo 
-		where c.placa = @placa;
+		where c.placa like '%'+@placa+'%';
 
 Create procedure buscarTodosOsVeiculos as 
 	Select * from veiculos;

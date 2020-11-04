@@ -22,6 +22,46 @@ RegisterUserWizardStep control.
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
+</member><member name="F:WebApplication1.About.Label1">
+	<summary>
+Label1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebApplication1.About.txtBoxBusca">
+	<summary>
+txtBoxBusca control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebApplication1.About.btnBuscar">
+	<summary>
+btnBuscar control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebApplication1.About.myGridCompra">
+	<summary>
+myGridCompra control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebApplication1.About.SqlDataSource1">
+	<summary>
+SqlDataSource1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
 </member><member name="F:WebApplication1.ChangePassword.ChangeUserPassword">
 	<summary>
 ChangeUserPassword control.
@@ -183,25 +223,9 @@ btnComprar control.
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
-</member><member name="F:WebApplication1._Default.lbldebug">
-	<summary>
-lbldebug control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
 </member><member name="F:WebApplication1.Site.HeadContent">
 	<summary>
 HeadContent control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:WebApplication1.Site.MasterPageScriptManager">
-	<summary>
-MasterPageScriptManager control.
 </summary>
 	<remarks>
 Auto-generated field.
@@ -215,17 +239,9 @@ HeadLoginView control.
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
-</member><member name="F:WebApplication1.Site.HeadHomeLink">
+</member><member name="F:WebApplication1.Site.NavigationMenu">
 	<summary>
-HeadHomeLink control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:WebApplication1.Site.HeadAboutLink">
-	<summary>
-HeadAboutLink control.
+NavigationMenu control.
 </summary>
 	<remarks>
 Auto-generated field.

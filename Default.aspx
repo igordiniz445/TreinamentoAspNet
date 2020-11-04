@@ -4,7 +4,7 @@
 <asp:Content ID="HeaderContent" runat="server" ContentPlaceHolderID="HeadContent">
 </asp:Content>
 <asp:Content ID="BodyContent" runat="server" ContentPlaceHolderID="MainContent">
-<div style="Height: 250px;Width: 920px;margin: 12px">
+    <div style="Height: 250px;Width: 920px;margin: 12px">
     <h2>
         Venda de Carros
     </h2>
@@ -53,7 +53,5 @@
         <br />
         <br />
     </div>
-    
 </div>
-    <asp:Label ID="lbldebug" runat="server" Text="Label"></asp:Label>
 </asp:Content>

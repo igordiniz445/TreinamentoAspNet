@@ -136,7 +136,6 @@ Public Class _Default
         num9 = cpf.Substring(8, 1)
         num10 = cpf.Substring(9, 1)
         num11 = cpf.Substring(10, 1)
-        'num1 = cpf.Substring(11, 1)
 
         If num1 = num2 And num2 = num3 And num3 = num4 And num4 = num5 And num5 = num6 And num6 = num7 And num7 = num8 And num8 = num9 And num9 = num10 And num10 = num11 Then
             Return False
